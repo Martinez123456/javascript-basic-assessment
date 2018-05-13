@@ -1,11 +1,12 @@
 
 // #1 Create a variable called hello and assign it the string 'goodbye'
+var hello = 'goodbye';
 
 
 
 // #2 Use the variable iLove to create a new variable called iLoveCode that is assigned the string "I love code"
 var iLove = 'I love';
-
+var iLoveCode = 'I love code';
 // #3  Make an object called bob and give it the following properties
 // bob has a height of 6ft (string)
 // bob has an age of 24 (Number)
@@ -60,7 +61,10 @@ var heroes = ['superman', 'batman', 'flash'];
 
 // #9 Write a function called addItem that takes in an array and an item, adds the item to
 // the array, and returns the array with the added item.
-
+function addItem(array, item){
+	item + array;
+	return array(item);
+};
 
 // #10 Write a function called removeItem that takes in an array of strings, and a string.
 
@@ -69,7 +73,9 @@ var heroes = ['superman', 'batman', 'flash'];
 
 // #11 Write a function  called doubleTheFun that takes 1 parameter. It should double numbers, and
 // repeats strings. example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
-
+function doubleTheFun(param){
+	param * param;
+};
 
 
 // #12 Write function getValueOfProperty that takes in an object, and the name of a property on the object
